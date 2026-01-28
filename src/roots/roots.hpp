@@ -9,6 +9,7 @@
 bool bisection(std::function<double(double)> f,
                double a, double b,
                double *root);
+               
 
 /* Tries to find a zero crossing in f() in the interval [a,b] with the
  * false positive / regula falsi method
